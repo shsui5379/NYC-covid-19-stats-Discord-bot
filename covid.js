@@ -69,7 +69,7 @@ exports.getSummary = function () {
     toSend += "Percentage of cases this week that is of the Omicron varient: " + data.varient[data.varient.length - 1]["B.1.1.529 percent"] + "%\n";
     toSend += "Citywide percentage of fully vaccinated people: " + data.boroVax[0].CITY_PERC_FULLY + "%\n\n"
 
-    toSend += "Source: " + "https://github.com/nychealth/coronavirus-data \n";
+    toSend += "Source: " + "<https://github.com/nychealth/coronavirus-data> \n";
     toSend += data.summary[6].MEASURE + "\n";
 
     return toSend;
