@@ -66,7 +66,7 @@ exports.getSummary = function () {
     toSend += "Deaths daily average: " + data.summary[5].DAILY_AVG_7DAY + "\n";
     toSend += "7 days rolling positivity rate: " + data.summary[0].LAST_7_DAY + "%\n\n";
 
-    toSend += "Percentage of cases this week that is of the Delta varient: " + data.varient[data.varient.length - 1]["B.1.617.2 percent"] + "%\n";
+    toSend += "Percentage of cases this week that is of the Omicron varient: " + data.varient[data.varient.length - 1]["B.1.1.529 percent"] + "%\n";
     toSend += "Citywide percentage of fully vaccinated people: " + data.boroVax[0].CITY_PERC_FULLY + "%\n\n"
 
     toSend += "Source: " + "https://github.com/nychealth/coronavirus-data \n";
