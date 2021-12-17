@@ -6,7 +6,7 @@ This uses slash commands, so must be invited with the `applications.command` sco
 /covid summary:
 - daily average cases, hospitalizations, deaths
 - 7 day positivity rate
-- percentage of cases of the Delta varient
+- percentage of cases of the Omicron varient
 - percentage of vaccinated people
 
 /covid zip <zip>:
